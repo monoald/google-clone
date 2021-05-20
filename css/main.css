@@ -18,7 +18,7 @@ header nav {
     justify-content: flex-end;
 }
 header nav .nav-right-section {
-    width: 250px;
+    width: 205px;
     height: auto;
     display: flex;
     list-style: none;
@@ -36,9 +36,9 @@ nav .nav-right-section .menu-icon {
     background-size: contain;
     width: 25px;
     height: 25px;
+    margin-left: 10px;
 }
 nav .nav-right-section img {
     border-radius: 50%;
-    margin-left: 10px;
-
+    margin-left: 17px;
 }
