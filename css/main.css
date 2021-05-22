@@ -42,3 +42,59 @@ nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 17px;
 }
+
+main {
+    margin-top: 104px;
+    text-align: center;
+}
+main .main-logo {
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+main .main-logo img {
+    width: 272px;
+    height: 92px;
+}
+
+main .main-input {
+    width: 584px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container {
+    width: 584px;
+    border-radius: 100px;
+    border: 1px solid #e0e1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input {
+    width: 487px;
+    height: 42px;
+    border: none;
+    outline: none;
+    margin: 0 10px 0 10px;
+}
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+main .main-input .search-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+main .main-input .micro-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;   
+}
