@@ -60,7 +60,7 @@ main .main-logo img {
 main .main-input {
     width: 584px;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 29px;
 }
 main .main-input-container {
     width: 584px;
@@ -97,4 +97,28 @@ main .main-input .micro-icon {
     width: 20px;
     height: 20px;
     cursor: pointer;   
+}
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-buttons div {
+    display: inline-block;
+}
+main .main-buttons button {
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+main .main-buttons button:hover {
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    border-color: black;
+    color: #222;
 }
